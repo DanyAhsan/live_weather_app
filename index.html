@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="card">
         <div class="search">
-            <input type="text" placeholder="Enter City Name">
-            <button><img src="images/search.png" alt="nf"></button>
+            <input type="text" placeholder="Enter City Name" class="form-control">
+            <button class="btn btn-primary"><img src="images/search.png" alt="nf"></button>
         </div>
         <div class="error">
             <p>Invalid City Name</p>
@@ -41,8 +42,9 @@
         </div>
     </div>
 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src="script.js"></script>
-
-
 </body>
 </html>
